@@ -1,0 +1,23 @@
+#Login
+logo : //div[@class='login_logo']
+username : //input[@id='user-name']
+password : //input[@id='password']
+buttonLogin : //input[@id='login-button']
+
+#Product Page
+productPage : //span[@class='title']
+productSouceLabsBackpackcarry : //div[@class='inventory_list']/div[contains(.,'Sauce Labs Backpackcarry.allTheThings() with the sleek, streamlined Sly Pack tha')]
+productNameSauceLabsBackpack : //div[.='Sauce Labs Backpack']
+
+#Checkout
+buttonAddToCart : //button[@id='add-to-cart']
+iconShoppingCart : //div[@id='shopping_cart_container']
+item_name : //div[@class='inventory_item_name']
+checkoutButton : //button[@id='checkout']
+inputFirstName : //input[@id='first-name']
+inputLastName : //input[@id='last-name']
+inputPostalCode : //input[@id='postal-code']
+buttonContinue : //input[@id='continue']
+buttonFinish : //button[@id='finish']
+complateHeader : //h2[@class='complete-header']
+buttonBackHome : //button[@id='back-to-products']
